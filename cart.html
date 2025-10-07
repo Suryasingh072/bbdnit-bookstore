@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>📚 BBDNIIT Book Hub - Cart</title>
+<title>Cart - BBDNIIT Book Hub</title>
 </head>
 <body bgcolor="#f0f0f5">
 
-<!-- Header -->
+<!-- Header with Logo Left -->
 <center>
 <table width="90%" bgcolor="#1e3d59" cellpadding="10">
 <tr>
+<td width="100">
+<img src="https://pinnacle.works/wp-content/uploads/2017/12/niit-1.png" width="80" height="80" alt="BBDNIIT Logo">
+</td>
 <td align="center">
 <font color="white" size="6"><b>📚 BBDNIIT Book Hub, Lucknow 🎓</b></font><br>
-<font color="white" size="3">Your Cart</font>
+<font color="white" size="3">Your Cart – Check & Checkout!</font>
 </td>
 </tr>
 </table>
@@ -23,7 +26,7 @@
 <table width="90%" bgcolor="#333" cellpadding="8">
 <tr>
 <td align="center" width="20%"><a href="index.html" style="text-decoration:none;"><font color="white"><b>Home</b></font></a></td>
-<td align="center" width="20%"><a href="about.html" style="text-decoration:none;"><font color="white"><b>About</b></font></a></td>
+<td align="center" width="20%"><a href="catalogue.html" style="text-decoration:none;"><font color="white"><b>Catalogue</b></font></a></td>
 <td align="center" width="20%"><a href="cart.html" style="text-decoration:none;"><font color="white"><b>Cart</b></font></a></td>
 <td align="center" width="20%"><a href="login.html" style="text-decoration:none;"><font color="white"><b>Login</b></font></a></td>
 <td align="center" width="20%"><a href="registration.html" style="text-decoration:none;"><font color="white"><b>Register</b></font></a></td>
@@ -33,25 +36,32 @@
 
 <!-- Cart Table -->
 <center>
-<h2>🛒 My Cart</h2>
-<table border="1" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+<h2>🛒 Your Cart</h2>
+<table border="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff" width="80%">
 <tr bgcolor="#1e3d59">
-<td><font color="white"><b>Book Name</b></font></td>
-<td><font color="white"><b>SKU</b></font></td>
-<td><font color="white"><b>Price (₹)</b></font></td>
-<td><font color="white"><b>Action</b></font></td>
+<th><font color="white">Book Name</font></th>
+<th><font color="white">Quantity</font></th>
+<th><font color="white">Price</font></th>
+<th><font color="white">Action</font></th>
 </tr>
 <tr>
-<td>Programming in C</td><td>BBD101</td><td>250</td>
-<td><input type="button" value="Remove" onclick="alert('Removed!')"></td>
+<td>Programming in C</td>
+<td>1</td>
+<td>₹250</td>
+<td><input type="button" value="Remove" onclick="alert('Book removed!')"></td>
 </tr>
 <tr>
-<td>Engineering Chemistry</td><td>BBD102</td><td>300</td>
-<td><input type="button" value="Remove" onclick="alert('Removed!')"></td>
+<td>Data Structures</td>
+<td>1</td>
+<td>₹350</td>
+<td><input type="button" value="Remove" onclick="alert('Book removed!')"></td>
 </tr>
 <tr>
-<td><b>Total</b></td><td></td><td><b>₹550</b></td>
-<td></td>
+<td colspan="2" align="right"><b>Total:</b></td>
+<td colspan="2">₹600</td>
+</tr>
+<tr>
+<td colspan="4" align="center"><input type="button" value="Checkout" style="width:50%" onclick="alert('Checkout Successful!')"></td>
 </tr>
 </table>
 </center>
