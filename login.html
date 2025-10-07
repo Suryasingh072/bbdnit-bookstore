@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>📚 BBDNIIT Book Hub - Login</title>
+<title>Login - BBDNIIT Book Hub</title>
 </head>
 <body bgcolor="#f0f0f5">
 
-<!-- Header -->
+<!-- Header with Logo Left -->
 <center>
 <table width="90%" bgcolor="#1e3d59" cellpadding="10">
 <tr>
+<td width="100">
+<img src="https://pinnacle.works/wp-content/uploads/2017/12/niit-1.png" width="80" height="80" alt="BBDNIIT Logo">
+</td>
 <td align="center">
 <font color="white" size="6"><b>📚 BBDNIIT Book Hub, Lucknow 🎓</b></font><br>
-<font color="white" size="3">Login to access your account</font>
+<font color="white" size="3">Login to Access Your Cart & Orders!</font>
 </td>
 </tr>
 </table>
@@ -23,7 +26,7 @@
 <table width="90%" bgcolor="#333" cellpadding="8">
 <tr>
 <td align="center" width="20%"><a href="index.html" style="text-decoration:none;"><font color="white"><b>Home</b></font></a></td>
-<td align="center" width="20%"><a href="about.html" style="text-decoration:none;"><font color="white"><b>About</b></font></a></td>
+<td align="center" width="20%"><a href="catalogue.html" style="text-decoration:none;"><font color="white"><b>Catalogue</b></font></a></td>
 <td align="center" width="20%"><a href="cart.html" style="text-decoration:none;"><font color="white"><b>Cart</b></font></a></td>
 <td align="center" width="20%"><a href="login.html" style="text-decoration:none;"><font color="white"><b>Login</b></font></a></td>
 <td align="center" width="20%"><a href="registration.html" style="text-decoration:none;"><font color="white"><b>Register</b></font></a></td>
@@ -33,14 +36,12 @@
 
 <!-- Login Form -->
 <center>
-<h2>🔑 Login</h2>
-<form onsubmit="alert('Login Successful! Redirecting to Home Page'); window.location='index.html'; return false;">
-<table border="1" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
-<tr><td>Username</td><td><input type="text" name="username" required></td></tr>
-<tr><td>Password</td><td><input type="password" name="password" required></td></tr>
-<tr><td colspan="2" align="center"><input type="submit" value="Login"></td></tr>
+<h2>🔑 Student Login</h2>
+<table width="40%" bgcolor="#ffffff" cellpadding="10" cellspacing="0" border="1">
+<tr><td>Email:<br><input type="email" style="width:95%"></td></tr>
+<tr><td>Password:<br><input type="password" style="width:95%"></td></tr>
+<tr><td align="center"><input type="button" value="Login" style="width:50%" onclick="alert('Login Successful! Redirecting to Home Page.'); window.location='index.html';"></td></tr>
 </table>
-</form>
 </center>
 
 <!-- Footer -->
